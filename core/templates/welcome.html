@@ -1,0 +1,13 @@
+{% extends 'base_auth.html' %}
+{% load static %}
+
+{% block auth %}
+  <div class="card">
+    <h2 class="card-header">Welcome</h2>
+    <div class="card-body">
+      <p>An activation link has been sent to your email address.
+        Kindly click on the link in the email to activate your account before you proceed.</p>
+      <a href="{% url 'login' %}" class="btn btn-blue btn-block px-5">Login</a>
+    </div>
+  </div>
+{% endblock auth %}

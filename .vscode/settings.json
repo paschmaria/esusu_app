@@ -1,0 +1,15 @@
+{
+  "python.pythonPath": "C:\\Users\\PASCHAL\\.virtualenvs\\esusu_confam-pvX_nj2b\\Scripts\\python.exe",
+  "sqltools.connections": [
+    {
+      "connectionTimeout": 30,
+      "database": "esusu_db",
+      "dialect": "PostgreSQL",
+      "name": "esusu_app",
+      "password": "zp5bK7Ah",
+      "port": null,
+      "server": "127.0.0.1",
+      "username": "db_admin"
+    }
+  ]
+}

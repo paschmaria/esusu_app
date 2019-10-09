@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+pytest-testmon = "*"
+pytest-watch = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+psycopg2 = "*"
+pillow = "*"
+short-url = "*"
+faker = "*"
+factory-boy = "*"
+
+[requires]
+python_version = "3.7"
